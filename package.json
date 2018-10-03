@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jluetzow/skeleton-api-typescript"
   },
   "author": "Jacob Luetzow",
   "license": "MIT",
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/jluetzow/skeleton-api-typescript/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/jluetzow/skeleton-api-typescript",
   "dependencies": {
     "body-parser": "1.18.3",
     "express": "4.16.3",
