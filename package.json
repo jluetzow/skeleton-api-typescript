@@ -1,0 +1,38 @@
+{
+  "name": "skeleton-api",
+  "version": "0.0.1",
+  "description": "Starter project",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --p ./tsconfig-dev.json && NODE_ENV=development node distdev/index.js",
+    "build": "tsc --p ./tsconfig.json",
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Jacob Luetzow",
+  "license": "MIT",
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "express-validator": "4.3.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.17.0",
+    "@types/express": "4.16.0",
+    "@types/express-validator": "3.0.0",
+    "npm": "6.2.0",
+    "ts-loader": "^4.5.0",
+    "tslint": "5.11.0",
+    "typescript": "2.9.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
